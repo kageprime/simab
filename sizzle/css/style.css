@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #1c1917;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #1c1917;
+}
+
+canvas {
+  border: 4px solid #1c1917;
+  box-shadow: 0 0 40px rgba(234, 88, 12, 0.3), 8px 8px 0 #ea580c;
+  border-radius: 2px;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  max-width: 100vw;
+  max-height: 100vh;
+}

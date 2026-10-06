@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; background: #0b0b14; overflow: hidden; }
+#container { display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; background: radial-gradient(circle at 50% 30%, #1e1b4b 0%, #0b0b14 70%); }
+#wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+canvas {
+  border: 4px solid #000;
+  box-shadow: 0 0 40px rgba(168, 85, 247, 0.35), 8px 8px 0 #7c3aed;
+  border-radius: 2px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  max-width: 96vw;
+  max-height: 88vh;
+  background: #111;
+  cursor: crosshair;
+}
+#help { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; font-family: monospace; font-size: 12px; color: #a5b4fc; }
+#help b { color: #fbbf24; }
